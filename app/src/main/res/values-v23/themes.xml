@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="Base.V23.AmadeuseRead" parent="Base.Theme.AmadeuseRead">
+		<item name="android:statusBarColor">@android:color/transparent</item>
+		<item name="android:navigationBarColor">@color/dim</item>
+	</style>
+
+	<style name="Theme.AmadeuseRead" parent="Base.V23.AmadeuseRead" />
+
+</resources>

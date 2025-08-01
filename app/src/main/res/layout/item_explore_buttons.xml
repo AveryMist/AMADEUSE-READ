@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="16dp">
+
+	<!-- Quick Actions Header -->
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="12dp"
+		android:text="@string/quick_actions"
+		android:textAppearance="?attr/textAppearanceTitleMedium"
+		android:textColor="?attr/colorOnSurface" />
+
+	<!-- First Row -->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="12dp"
+		android:orientation="horizontal">
+
+		<!-- Local Storage Card -->
+		<com.google.android.material.card.MaterialCardView
+			android:id="@+id/card_local"
+			style="@style/Widget.AmadeuseRead.ActionCard"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="8dp"
+			android:layout_weight="1"
+			android:clickable="true"
+			android:focusable="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:orientation="vertical"
+				android:padding="16dp">
+
+				<ImageView
+					android:layout_width="32dp"
+					android:layout_height="32dp"
+					android:layout_marginBottom="8dp"
+					android:src="@drawable/ic_storage"
+					app:tint="?attr/colorPrimary" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/local_storage"
+					android:textAppearance="?attr/textAppearanceBodyMedium"
+					android:textColor="?attr/colorOnSurface" />
+
+			</LinearLayout>
+
+		</com.google.android.material.card.MaterialCardView>
+
+		<!-- Bookmarks Card -->
+		<com.google.android.material.card.MaterialCardView
+			android:id="@+id/card_bookmarks"
+			style="@style/Widget.AmadeuseRead.ActionCard"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="8dp"
+			android:layout_weight="1"
+			android:clickable="true"
+			android:focusable="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:orientation="vertical"
+				android:padding="16dp">
+
+				<ImageView
+					android:layout_width="32dp"
+					android:layout_height="32dp"
+					android:layout_marginBottom="8dp"
+					android:src="@drawable/ic_bookmark"
+					app:tint="?attr/colorPrimary" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/bookmarks"
+					android:textAppearance="?attr/textAppearanceBodyMedium"
+					android:textColor="?attr/colorOnSurface" />
+
+			</LinearLayout>
+
+		</com.google.android.material.card.MaterialCardView>
+
+	</LinearLayout>
+
+	<!-- Second Row -->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<!-- Random Card -->
+		<com.google.android.material.card.MaterialCardView
+			android:id="@+id/card_random"
+			style="@style/Widget.AmadeuseRead.ActionCard"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="8dp"
+			android:layout_weight="1"
+			android:clickable="true"
+			android:focusable="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:orientation="vertical"
+				android:padding="16dp">
+
+				<ImageView
+					android:id="@+id/imageView_random"
+					android:layout_width="32dp"
+					android:layout_height="32dp"
+					android:layout_marginBottom="8dp"
+					android:src="@drawable/ic_dice"
+					app:tint="?attr/colorPrimary" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/random"
+					android:textAppearance="?attr/textAppearanceBodyMedium"
+					android:textColor="?attr/colorOnSurface" />
+
+			</LinearLayout>
+
+		</com.google.android.material.card.MaterialCardView>
+
+		<!-- Downloads Card -->
+		<com.google.android.material.card.MaterialCardView
+			android:id="@+id/card_downloads"
+			style="@style/Widget.AmadeuseRead.ActionCard"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="8dp"
+			android:layout_weight="1"
+			android:clickable="true"
+			android:focusable="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:orientation="vertical"
+				android:padding="16dp">
+
+				<ImageView
+					android:layout_width="32dp"
+					android:layout_height="32dp"
+					android:layout_marginBottom="8dp"
+					android:src="@drawable/ic_download"
+					app:tint="?attr/colorPrimary" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/downloads"
+					android:textAppearance="?attr/textAppearanceBodyMedium"
+					android:textColor="?attr/colorOnSurface" />
+
+			</LinearLayout>
+
+		</com.google.android.material.card.MaterialCardView>
+
+	</LinearLayout>
+
+</LinearLayout>

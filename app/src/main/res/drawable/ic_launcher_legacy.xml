@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Fond moderne avec dégradé -->
+    <path
+        android:fillColor="#FF2E5BBA"
+        android:pathData="M0,0h48v48h-48z" />
+
+    <!-- Logo Amadeuse Read simplifié - Version legacy -->
+    <group
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:pivotX="24"
+        android:pivotY="24">
+
+        <!-- Cercle de fond pour le logo -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M24,8 C30.627,8 36,13.373 36,20 L36,28 C36,34.627 30.627,40 24,40 C17.373,40 12,34.627 12,28 L12,20 C12,13.373 17.373,8 24,8 Z" />
+
+        <!-- Logo principal simplifié -->
+        <path
+            android:fillColor="#2E5BBA"
+            android:pathData="M16,18 L32,18 L32,30 L16,30 Z" />
+
+        <!-- Détails du logo -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.5"
+            android:pathData="M18,21 L30,21 M18,24 L30,24 M18,27 L30,27" />
+
+    </group>
+    
+</vector>

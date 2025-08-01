@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Selected state -->
+    <item android:state_checked="true">
+        <vector
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="24"
+            android:viewportHeight="24"
+            android:tint="?attr/colorOnPrimaryContainer">
+            <path
+                android:fillColor="@android:color/white"
+                android:pathData="M6.18,15.64c2.171,0 3.92,1.749 3.92,3.92s-1.749,3.92 -3.92,3.92 -3.92,-1.749 -3.92,-3.92 1.749,-3.92 3.92,-3.92zM4,4.44v2.83c7.03,0 12.73,5.7 12.73,12.73h2.83c0,-8.59 -6.97,-15.56 -15.56,-15.56zM4,10.1v2.83c3.73,0 6.77,3.04 6.77,6.77h2.83c0,-5.31 -4.29,-9.6 -9.6,-9.6z"/>
+        </vector>
+    </item>
+
+    <!-- Default state -->
+    <item>
+        <vector
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="24"
+            android:viewportHeight="24"
+            android:tint="?attr/colorOnSurfaceVariant">
+            <path
+                android:fillColor="@android:color/white"
+                android:pathData="M6.18,15.64c2.171,0 3.92,1.749 3.92,3.92s-1.749,3.92 -3.92,3.92 -3.92,-1.749 -3.92,-3.92 1.749,-3.92 3.92,-3.92zM4,4.44v2.83c7.03,0 12.73,5.7 12.73,12.73h2.83c0,-8.59 -6.97,-15.56 -15.56,-15.56zM4,10.1v2.83c3.73,0 6.77,3.04 6.77,6.77h2.83c0,-5.31 -4.29,-9.6 -9.6,-9.6z"/>
+        </vector>
+    </item>
+
+</selector>
